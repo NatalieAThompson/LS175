@@ -1,13 +1,14 @@
 GEM
-  remote: https://rubygems.org/
+  remote: http://rubygems.org/
   specs:
+    rack (2.0.9)
     webrick (1.7.0)
 
 PLATFORMS
-  x64-mingw32
   x86_64-linux
 
 DEPENDENCIES
+  rack (~> 2.0.1)
   webrick
 
 BUNDLED WITH
